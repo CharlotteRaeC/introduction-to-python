@@ -32,17 +32,17 @@ TEMPLATES: dict[str, dict] = {
         "Nessie": {
         "name":             "Nessie",
         "key_words":        ("Nessloc", "Nessie"),
-        "room_description": "&wA A green animal that swims in The Void peacefully&N",
+        "room_description": "&wA A green animal that swims in The Void peacefully and powerfully.&N",
         "description": (
             "A green creature that has a cute look to it's face.\n"
-            "It seems to be eating"
+            "It seems to be eating a metallic weapon... or just a radioactive core."
         ),
-        "race":     "Human",
-        "class":    "Student",
-        "level":    1,
-        "stats":    [60, 65, 60, 80, 70, 75],
+        "race":     "non_human",
+        "class":    "Nessie",
+        "level":    50,
+        "stats":    [100, 100, 100, 90, 90, 100],
         "aggro":    False,
-        "wander":   True,
+        "wander":   False,
     },
 
     "void_guardian": {

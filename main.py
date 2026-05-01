@@ -63,7 +63,7 @@ def main():
         handler  = state.handle,
         prompt   = "&g> &N",
         banner   = (
-            "&WWelcome to &RRiverview &WChristian &BSchool&N SUD!&N\n"
+            "&WWelcome to &RRi&N&rver&N&Rvi&N&rew&N &WChristian &BS&N&bc&N&Bho&N&bol&N &GSUD!&N\n"
             "&wType &Wlook&N&w, &Wn&N&w/&Ws&N&w/&We&N&w/&Ww&N&w, "
             "&Wwho&N&w, &Wstats&N&w, &Wquit&N&w.&N"
         ),
