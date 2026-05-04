@@ -73,6 +73,7 @@ TEMPLATES: dict[str, dict] = {
         "wander": False,
         "kill": False,
     },
+
 }
 
 # Module-level spawn — rooms.py calls  M.spawn("void_guardian")
