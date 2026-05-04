@@ -29,6 +29,22 @@ TEMPLATES: dict[str, dict] = {
         "wander":   True,
     },
 
+"wandering_teacher": {
+        "name":             "a wandering teacher",
+        "key_words":        ("teacher", "wandering"),
+        "room_description": "&wA wandering teacher roams the halls in search of loose students.&N",
+        "description": (
+            "A teacher with a focused look, awaiting an opportunity to dish out detention.\n"
+            "Or possibly just avoiding teacher duties."
+        ),
+        "race":     "Human",
+        "class":    "Teacher",
+        "level":    1,
+        "stats":    [60, 65, 60, 80, 70, 75],
+        "aggro":    False,
+        "wander":   True,
+    },
+
     "void_guardian": {
         "name":             "the Void Guardian",
         "key_words":        ("guardian", "void"),
