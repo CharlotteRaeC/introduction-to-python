@@ -114,38 +114,17 @@ TEMPLATES: dict[str, dict] = {
     "weasel": {
         "name": "weasel",
         "key_words": ("weasel"),
-        "room_description": "&wA Weasel floats here randomly.&N",
-<<<<<<< HEAD
+        "room_description": "&wA &YWeasel&N floats here randomly.&N",
         "description": ("
             "It is very soft and chubby.\n",
             "It seems like it standing on some cheese."
-<<<<<<< HEAD
         ),
         "race":     "animal",
         "class":    "weasel",
         "level":    50,
         "stats":    [60, 100, 60, 100, 75, 100],
-=======
-        },
-        "race":     "non_human",
-        "class":    "Weasel",
-        "level":    50,
-        "stats":    [100, 100, 100, 90, 90, 100],
->>>>>>> 35107d649d4e6c4d4fdc2ab53e3dc231b54d4907
         "aggro":    False,
         "wander":   False,
-=======
-        "description": (
-            "It is very soft and chubby.\n",
-            "It seems like it standing on some cheese.",
-        ),
-        "race": "non_human",
-        "class": "Weasel",
-        "level": 50,
-        "stats": [100, 100, 100, 90, 90, 100],
-        "aggro": False,
-        "wander": False,
->>>>>>> 34fcd46834ed34095f4816862f083b903b8e0d31
     },
     "Nessie": {
         "name": "Nessie",
@@ -233,6 +212,23 @@ TEMPLATES: dict[str, dict] = {
         "aggro": True,
         "wander": True,
     },
+
+    "the cheese monster": {
+        "name": "the cheese monster",
+        "key_words": ("cheese", "monster"),
+        "room_description": "&Wthe&N &yc&Yh&N&ye&Ye&N&ys&Ye&N &bmonster &Wsleeps here&N",
+        "description": (
+            "a cheese monster thinking into space "
+            "most likely thinking about &msleep..."
+        ),
+        "race": "cheese",
+        "class": "scary guy",
+        "level": "29",
+        "stats": [46, 59, 65, 55, 75, 80],
+        "aggro": False,
+        "wander": False,
+    },
+
     "Sand Puma": {
         "name":             "Sand Puma",
         "key_words":        ("puma"),
