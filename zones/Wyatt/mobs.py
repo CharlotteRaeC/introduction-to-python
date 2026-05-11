@@ -12,20 +12,20 @@ from ashenmoor.world import Mob
 from ashenmoor.world.zone import make_spawner
 
 TEMPLATES: dict[str, dict] = {
-    "wandering_student": {
-        "name": "a wandering student",
-        "key_words": ("student", "wandering"),
-        "room_description": "&wA wandering student meanders about aimlessly.&N",
+    "Pink Nessie": {
+        "name": "Pink Nessie",
+        "key_words": ("Pink", "Nessie"),
+        "room_description": "&gA very strange pink coloration of a Nessie.&N",
         "description": (
-            "A student with a faraway look, clearly lost in thought.\n"
-            "Or possibly just lost."
+            "It sits there... menacingly.\n"
+            "Or it is just sitting there without a single thought in that head."
         ),
-        "race": "Human",
-        "class": "Student",
+        "race": "nonhuman",
+        "class": "Nessie",
         "level": 1,
-        "stats": [60, 65, 60, 80, 70, 75],
+        "stats": [100, 100, 100, 100, 100, 100],
         "aggro": False,
-        "wander": True,
+        "wander": False,
     }
 }
 
