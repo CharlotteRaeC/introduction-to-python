@@ -30,15 +30,15 @@ TEMPLATES: dict[str, dict] = {
         "description":      "This sack seems to be in an awful condition.",
         "weight":           2,
     },
-    "windsong" : {
+    "Raptors claw" : {
         "spawn_as":         Weapon,
-        'name': "&+ga &wg&Wl&wi&Wtt&wer&Wi&wng &N&+gelven scimitar&N",
-        'key_words': ('scimitar', 'elven', 'glittering'),
-        'room_description': "&+gA glittering elven scimitar is lying on the ground here.&N",
-        'description': """&+gIts blade encrusted with diamond dust, this magically light
-&+gelven blade glitters in the sunlight and seems to hum softly
-&+gwhen wielded in battle.&N""",
-        "weight":           3,
+        'name': "&+ga &ws&Wh&wa&Wrp&we&Ws&wt &N&+grusty karambit knife&N",
+        'key_words': ('Raptors', 'Claw', 'knife'),
+        'room_description': "&+gA rusty karambit knife that is a reddish color and folds.&N",
+        'description': """&+gIts blade is made of a crystalline structure that has been carefully molded
+&+git has a weird glow whenever danger is near
+&+gor just a monster&N""",
+        "weight":           1,
         "dice":             "2d8",
         "hitroll":          2,
         "damroll":          4,
