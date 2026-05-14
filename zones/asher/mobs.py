@@ -28,6 +28,26 @@ TEMPLATES: dict[str, dict] = {
         "wander": True,
     },
 
+    "fabulous fih": {
+        "name": "fabulous fih",
+        "key_words": ("fabulous", "fih"),
+        "room_description": "&cA fabulous fih swims here&N",
+        "description": (
+            "It is very slimy.\n",
+            "It is jumping through many hoops"
+
+            ),
+
+            "race": "non_human",
+            "class": "fish",
+            "level": 50,
+            "stats": [100, 90, 100, 90, 90, 80],
+            "aggro": False,
+            "wander": False,
+
+
+        },
+
 
     "weasel": {
         "name": "weasel",
@@ -48,7 +68,7 @@ TEMPLATES: dict[str, dict] = {
 
 
         }
-                }
+}
 
 # Module-level spawn — rooms.py calls  M.spawn("void_guardian")
 spawn = make_spawner(TEMPLATES, lambda: Mob)
