@@ -17,8 +17,8 @@ from . import mobs as M
 ROOMS: dict[int, Room] = {
     1: Room(
         {
-            "number": 1,
-            "name": "fih land",
+            "number": 21,
+            "name": "&cfih_land&N",
             "description": "It is a land of wonderful fih",
             "indoors": False,
             "terrain": "water",
@@ -33,7 +33,8 @@ ROOMS: dict[int, Room] = {
             "objects": [
                 O.spawn("tennis_racket"),
             ],
-            "mobs": [M.spawn("weasel")],  # two independent students
+            "mobs": [M.spawn("fabulous_fih")
+            ],
         }
     ),
 }

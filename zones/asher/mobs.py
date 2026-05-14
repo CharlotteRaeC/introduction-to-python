@@ -28,7 +28,7 @@ TEMPLATES: dict[str, dict] = {
         "wander": True,
     },
 
-    "fabulous fih": {
+    "fabulous_fih": {
         "name": "fabulous fih",
         "key_words": ("fabulous", "fih"),
         "room_description": "&cA fabulous fih swims here&N",
