@@ -46,7 +46,7 @@ TEMPLATES: dict[str, dict] = {
      "the cheez sniffer": {
         "name": "the &yc&Yh&N&ye&Ye&N&ys&Ye&N sniffer",
         "key_words": ("cheese", "sniffer"),
-        "room_description": "&Wthe&N &yc&Yh&N&ye&N&ys&Ye&N &bsniffer &Wsniffs around here&N",
+        "room_description": "&Wthe&N &&yc&Yh&N&ye&Ye&N&ys&Ye&N &bsniffer &Wsniffs around here&N",
         "description": (
             "a cheese sniffer sniffing around "
             "most likely sniffing about &msleep..."
@@ -61,7 +61,7 @@ TEMPLATES: dict[str, dict] = {
     "the cheese spirit": {
         "name": "the cheese spirit",
         "key_words": ("cheese", "spirit"),
-        "room_description": "&Wthe&N &yc&Yh&N&ye&N&ys&Ye&N &bspirit &Rhaunts&N &Wthis place&N",
+        "room_description": "&Wthe&N &yc&Yh&N&ye&Ye&N&ys&Ye&N &bspirit &Rhaunts&N &Wthis place&N",
         "description": (
             "a cheese spirit haunting this place "
             "most likely haunting cheese monsters &msleep..."

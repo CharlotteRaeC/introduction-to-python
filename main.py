@@ -26,7 +26,6 @@ from ashenmoor.engine import GameState
 
 from zones.gabe import ZONE as GABE
 
-
 def main():
     # ── Characters ────────────────────────────────────────────────────────────
     characters = {
