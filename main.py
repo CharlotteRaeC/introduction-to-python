@@ -37,7 +37,6 @@ from zones.wyatt import ZONE as CRYSTAL_CAVERNS
 from zones.joshua import ZONE as JOSHUA
 from zones.eva import ZONE as EVA
 
-
 def main():
     # ── Characters ────────────────────────────────────────────────────────────
     characters = {
